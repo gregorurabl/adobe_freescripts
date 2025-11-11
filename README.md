@@ -8,7 +8,7 @@ ${\color{purple}Adobe \space After \space Effects}$
 
 ☑ Dockable
 
-A little tool to batch bake expressions fur multiple compositions at once. 
+A little tool to batch bake expressions for multiple compositions at once. 
 
 <details>
   <summary>Click to see Screenshots</summary>
