@@ -1,5 +1,5 @@
 # adobe_freescripts
-Tools, Snippets and little helpers I created on the way while building larger stuff. Mostly ExtendScript Stuff for Adobe Photoshop and After Effects . I'm not actively working on most of these and won't make updates or bugfixes on a regular basis. But feel free to contact me if you find any bugs or have a request fo a feature: https://www.gregorurabl.at/kontakt <br><br> Licensed under the “Free License – No Resale” by Gregor Urabl (https://gregorurabl.at). Credits are not required but very appreciated - thank you - share the open source spirit! I'm in no way affiliated with Adobe, just coding what I need for myself while working with their software.
+Tools, Snippets and little helpers I created on the way while building larger stuff. Mostly ExtendScript Stuff for Adobe Photoshop and After Effects . I'm not actively working on most of these and won't make updates or bugfixes on a regular basis. But feel free to contact me if you find any bugs or have a request for a feature: https://www.gregorurabl.at/kontakt <br><br>If you like to support me buy one of my larger scripts: https://aescripts.com/authors/gregor-urabl (currently only "Advanced Selection", but more coming soon). <br><br>Licensed under the “Free License – No Resale” by Gregor Urabl (https://gregorurabl.at). Credits are not required but very appreciated - thank you - share the open source spirit! I'm in no way affiliated with Adobe, just coding what I need for myself while working with their software.
 
 # The Scripts in Detail
 
@@ -10,6 +10,8 @@ ${\color{purple}Adobe \space After \space Effects}$
 
 A little tool to batch bake expressions fur multiple compositions at once. 
 
+<br><img width="161" height="170" alt="grafik" src="https://github.com/user-attachments/assets/e0d6d5ec-26ca-47ad-90ef-34631f139d8a" /><br>
+
 **How to use:** Select compositions and hit the button. Expression Baker copies these compositions to a new folder, samples the frames of all expressions in all selected compositions and removes the expressions afterwards. The original compositions remain unaffected. Don't touch it while it's sampling, it doesn't like that and may bite.
 
 ## Mass Replacer
@@ -17,9 +19,9 @@ ${\color{blue}Adobe \space Photoshop}$
 
 ☒ Not Dockable
 
-<img width="485" height="171" alt="grafik" src="https://github.com/user-attachments/assets/72e16128-5a49-479c-8f58-d8d60447f8d4" />
-
 A batch replacer for photoshop templates. Replaces two different text layers by name with content from a txt data file.
+
+<br><img width="485" height="171" alt="grafik" src="https://github.com/user-attachments/assets/72e16128-5a49-479c-8f58-d8d60447f8d4" /><br>
 
 **How to use:** It's essential that the folder structure and naming of the Mass Replacer is kept intact: One folder "OUTPUT", one folder "psd_master". Put your photoshop files in the "psd_master" folder and add text layers strictly named "SpeakerName" and "SpeakerDescription" as you like. Fill a txt file with name and description alternating. No limit, empty lines are being ignored. So as example:
 <br><br>
