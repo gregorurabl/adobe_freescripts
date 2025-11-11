@@ -17,6 +17,8 @@ ${\color{blue}Adobe \space Photoshop}$
 
 ☒ Not Dockable
 
+<img width="485" height="171" alt="grafik" src="https://github.com/user-attachments/assets/72e16128-5a49-479c-8f58-d8d60447f8d4" />
+
 A batch replacer for photoshop templates. Replaces two different text layers by name with content from a txt data file.
 
 **How to use:** It's essential that the folder structure and naming of the Mass Replacer is kept intact: One folder "OUTPUT", one folder "psd_master". Put your photoshop files in the "psd_master" folder and add text layers strictly named "SpeakerName" and "SpeakerDescription" as you like. Fill a txt file with name and description alternating. No limit, empty lines are being ignored. So as example:
