@@ -61,7 +61,7 @@ ${\color{purple}Adobe \space After \space Effects}$
 
 ☒ Not Dockable
 
-A diagnostics tool that reads a lot of information about your After Effects installation(s) and displays it in a container that let's you copy it's content. So you can tell people like me why scripts like mine throw errors on your machine. And only on your machine specificaly :P
+A diagnostics tool that reads a lot of information about your After Effects installation(s) and displays it in a container that let's you copy it's content. So you can tell people like me why scripts like mine throw errors on your machine. And only on your machine specifically :P
 
 <details>
   <summary>Click to see Screenshots</summary>
