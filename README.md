@@ -18,6 +18,22 @@ A little tool to batch bake expressions fur multiple compositions at once.
 
 **How to use:** Select compositions and hit the button. Expression Baker copies these compositions to a new folder, samples the frames of all expressions in all selected compositions and removes the expressions afterwards. The original compositions remain unaffected. Don't touch it while it's sampling, it doesn't like that and may bite.
 
+## AE Diagnostics
+${\color{purple}Adobe \space After \space Effects}$
+
+☒ Not Dockable
+
+A diagnostics tool that reads a lot of information about your After Effects installation(s) and displays it in a container that let's you copy it's content. So you can tell people like me why scripts like mine throw errors on your machine. And only on your machine specificaly :P
+
+<details>
+  <summary>Click to see Screenshots</summary>
+<br>
+<img width="839" height="1153" alt="grafik" src="https://github.com/user-attachments/assets/dc8a112e-8467-4835-a1d2-9a4801c9cab6" />
+<br>
+</details>
+
+**How to use:** Run the script. Copy the output. Paste it in a mail, pastebin or write it on a piece of paper. Send it to someone who needs that info.
+
 ## Mass Replacer
 ${\color{blue}Adobe \space Photoshop}$
 
