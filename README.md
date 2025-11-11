@@ -1,5 +1,5 @@
 # adobe_freescripts
-Tools, Snippets and little helpers I created on the way while building larger stuff. Mostly ExtendScript Stuff for Adobe Photoshop and After Effects . I'm not actively working on most of these and won't make updates or bugfixes on a regular basis. But feel free to contact me if you find any bugs or have a request fo a feature. Licensed under the “Free License – No Resale” by Gregor Urabl (https://gregorurabl.at). Credits are not required but very appreciated - thank you - share the open source spirit! I'm in no way affiliated with Adobe, just coding what I need myself for their software.
+Tools, Snippets and little helpers I created on the way while building larger stuff. Mostly ExtendScript Stuff for Adobe Photoshop and After Effects . I'm not actively working on most of these and won't make updates or bugfixes on a regular basis. But feel free to contact me if you find any bugs or have a request fo a feature: https://www.gregorurabl.at/kontakt <br><br> Licensed under the “Free License – No Resale” by Gregor Urabl (https://gregorurabl.at). Credits are not required but very appreciated - thank you - share the open source spirit! I'm in no way affiliated with Adobe, just coding what I need for myself while working with their software.
 
 # The Scripts in Detail
 
