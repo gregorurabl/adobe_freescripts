@@ -10,7 +10,11 @@ ${\color{purple}Adobe \space After \space Effects}$
 
 A little tool to batch bake expressions fur multiple compositions at once. 
 
+<details>
+  <summary>Click to see Screenshots</summary>
 <br><img width="161" height="170" alt="grafik" src="https://github.com/user-attachments/assets/e0d6d5ec-26ca-47ad-90ef-34631f139d8a" /><br>
+<img width="739" height="612" alt="grafik" src="https://github.com/user-attachments/assets/7318fd98-187b-4606-a360-270105b5d75a" /><br>
+</details>
 
 **How to use:** Select compositions and hit the button. Expression Baker copies these compositions to a new folder, samples the frames of all expressions in all selected compositions and removes the expressions afterwards. The original compositions remain unaffected. Don't touch it while it's sampling, it doesn't like that and may bite.
 
@@ -21,7 +25,10 @@ ${\color{blue}Adobe \space Photoshop}$
 
 A batch replacer for photoshop templates. Replaces two different text layers by name with content from a txt data file.
 
+<details>
+  <summary>Click to see Screenshots</summary>
 <br><img width="485" height="171" alt="grafik" src="https://github.com/user-attachments/assets/72e16128-5a49-479c-8f58-d8d60447f8d4" /><br>
+</details>
 
 **How to use:** It's essential that the folder structure and naming of the Mass Replacer is kept intact: One folder "OUTPUT", one folder "psd_master". Put your photoshop files in the "psd_master" folder and add text layers strictly named "SpeakerName" and "SpeakerDescription" as you like. Fill a txt file with name and description alternating. No limit, empty lines are being ignored. So as example:
 <br><br>
