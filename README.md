@@ -8,7 +8,7 @@ ${\color{purple}Adobe \space After \space Effects}$
 
 ☑ Dockable
 
-A little tool to batch bake expressions fur multiple compositions at once. 
+A little tool to batch bake expressions for multiple compositions at once. 
 
 <details>
   <summary>Click to see Screenshots</summary>
@@ -16,14 +16,52 @@ A little tool to batch bake expressions fur multiple compositions at once.
 <img width="739" height="612" alt="grafik" src="https://github.com/user-attachments/assets/7318fd98-187b-4606-a360-270105b5d75a" /><br>
 </details>
 
-**How to use:** Select compositions and hit the button. Expression Baker copies these compositions to a new folder, samples the frames of all expressions in all selected compositions and removes the expressions afterwards. The original compositions remain unaffected. Don't touch it while it's sampling, it doesn't like that and may bite.
+**How to use:** 
+1. Select compositions and hit the button.
+2. Expression Baker copies these compositions to a new folder, samples the frames of all expressions in all selected compositions and removes the expressions afterwards.
+3. The original compositions remain unaffected.
+4. Don't touch it while it's sampling, it doesn't like that and may bite.
+<br><br>
+## AE Expression Checker
+${\color{purple}Adobe \space After \space Effects}$
 
+☒ Not Dockable
+
+A tool for scanning, viewing, and editing expressions across your entire After Effects project. Finds all expressions regardless of nesting depth (up to 4 property levels) and provides an interface to navigate and modify them without manually opening layer properties.
+
+<details>
+  <summary>Click to see Screenshots</summary>
+<br>
+<img width="225" height="163" alt="grafik" src="https://github.com/user-attachments/assets/37c63f06-a7bd-4f57-b499-5eb5edeed394" /><br>
+<img width="286" height="211" alt="grafik" src="https://github.com/user-attachments/assets/f31bd2d4-c251-4c6b-be2b-3190a38b12eb" /><br>
+<img width="591" height="720" alt="grafik" src="https://github.com/user-attachments/assets/06044f91-a8fd-4aec-8fa9-3ab078c63002" />
+<br>
+</details>
+
+### Features:
+- Scans entire project for expressions in all compositions and layers
+- Dropdown menus for quick navigation to specific compositions and layers
+- Keyboard shortcuts (Arrow keys for navigation, Escape to close)
+- Edit expressions directly in the tool
+- Update expressions back to After Effects with one click
+- Shows statistics for expression count per property level
+- Handles large projects efficiently (tested with 6000+ expressions)
+
+**How to use:** 
+1. Run the script
+2. Browse expressions using dropdowns or arrow keys
+3. Edit expression text in the window
+4. Click "Update" to write changes back to the project
+5. Navigate to the next expression and repeat
+
+Useful for bulk-editing similar expressions or getting an overview of expression usage in complex projects.
+<br><br>
 ## AE Diagnostics
 ${\color{purple}Adobe \space After \space Effects}$
 
 ☒ Not Dockable
 
-A diagnostics tool that reads a lot of information about your After Effects installation(s) and displays it in a container that let's you copy it's content. So you can tell people like me why scripts like mine throw errors on your machine. And only on your machine specificaly :P
+A diagnostics tool that reads a lot of information about your After Effects installation(s) and displays it in a container that let's you copy it's content. So you can tell people like me why scripts like mine throw errors on your machine. And only on your machine specifically :P
 
 <details>
   <summary>Click to see Screenshots</summary>
@@ -32,8 +70,12 @@ A diagnostics tool that reads a lot of information about your After Effects inst
 <br>
 </details>
 
-**How to use:** Run the script. Copy the output. Paste it in a mail, pastebin or write it on a piece of paper. Send it to someone who needs that info.
-
+**How to use:** 
+1. Run the script.
+2. Copy the output.
+3. Paste it in an email, on pastebin or write it on a piece of paper.
+4. Send it to someone who needs that info.
+<br><br>
 ## Mass Replacer
 ${\color{blue}Adobe \space Photoshop}$
 
@@ -57,8 +99,10 @@ Hairdresser<br>
 Justin Thyme<br>
 Watchmaker<br>
 <br>
-Run the script and select what format (png or psd) you need, if the template name should be included in the file names (the files are named after name/description) and if you need to escape special characters in your data. Load up a datafile and watch the magic happen. Have a look in the OUTPUT folder after it's done if you dare.
-
+1. Run the script and select what format (png or psd) you need, if the template name should be included in the file names (the files are named after name/description) and if you need to escape special characters in your data.
+2. Load up a datafile and watch the magic happen.
+3. Have a look in the OUTPUT folder after it's done if you dare.
+<br><br>
 # License
 
 This project is licensed under the **Free License – No Resale**  
