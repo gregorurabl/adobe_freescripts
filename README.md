@@ -1,7 +1,33 @@
 # adobe_freescripts
-Tools, Snippets and little helpers I created on the way while building larger stuff. Mostly ExtendScript Stuff for Adobe Photoshop and After Effects . I'm not actively working on most of these and won't make updates or bugfixes on a regular basis. But feel free to contact me if you find any bugs or have a request for a feature: https://www.gregorurabl.at/kontakt <br><br>If you like to support me buy one of my larger scripts: https://aescripts.com/authors/gregor-urabl (currently only "Advanced Selection", but more coming soon). <br><br>Licensed under the “Free License – No Resale” by Gregor Urabl (https://gregorurabl.at). Credits are not required but very appreciated - thank you - share the open source spirit! I'm in no way affiliated with Adobe, just coding what I need for myself while working with their software.
+Tools, Snippets and little helpers I created on the way while building larger stuff. Mostly ExtendScript Stuff for Adobe Photoshop and After Effects . I'm not actively working on most of these and won't make updates or bugfixes on a regular basis. But feel free to contact me if you find any bugs or have a request for a feature: https://www.gregorurabl.at/kontakt <br><br>If you like to support me buy one of my larger scripts: https://aescripts.com/authors/gregor-urabl ("Advanced Selection" and "Loop This! Wiggle). <br><br>Licensed under the “Free License – No Resale” by Gregor Urabl (https://gregorurabl.at). Credits are not required but very appreciated - thank you - share the open source spirit! I'm in no way affiliated with Adobe, just coding what I need for myself while working with their software.
 
 # The Scripts in Detail
+
+## Expression Batcher
+${\color{purple}Adobe \space After \space Effects}$
+
+☑ Dockable
+
+A Tool for writing or appending an expression to a shared property across multiple layers in one operation.
+
+<details>
+  <summary>Click to see Screenshots</summary>
+<img width="427" height="373" alt="grafik" src="https://github.com/user-attachments/assets/bc55ebf1-a665-45bd-b134-4ddf31d3fada" />
+</details>
+
+**How to use:** 
+1. Select a composition and the layers you want to target.
+2. Click Set Target Com. The panel reads the active comp and all currently selected layers. The target is now locked in the Target field.
+3. Choose a property from the dropdown. It lists only properties that are common to all selected layers and can hold an expression.
+4. Write your expression in the Expression text field.
+5. Click Overwrite or Add:
+
+Overwrite — replaces any existing expression on the selected property in all target layers.
+Add — appends to existing expressions, preceded by a blank line and a comment marker (// Expression added by Expression Batcher).
+
+**Note:**
+The target comp and layer selection are captured at the moment you click Set Target Comp. Changing focus or selection in AE afterwards has no effect until you click the button again.
+TIPP: The Expression Batcher works great together with my "Advanced Selection" Panel to add an expression to specifically selected layers!
 
 ## Expression Baker
 ${\color{purple}Adobe \space After \space Effects}$
